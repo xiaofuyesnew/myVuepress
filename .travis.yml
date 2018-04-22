@@ -13,4 +13,4 @@ after_script:
   - git config user.email "xiaofuyesnew@qq.com"
   - git add -A
   - git commit -m 'deploy'
-  - git push -f "https://${Travis_Token}@github.com/xiaofuyesnew/xiaofuyesnew.github.io.git" master:gh-pages
+  - git push -f "https://${Travis_Token}@github.com/xiaofuyesnew/xiaofuyesnew.github.io.git" master:master
