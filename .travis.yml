@@ -1,15 +1,16 @@
 language: node_js
 
-node_js:
-  - 9.0
+node_js: stable
 
-before_script:
+install:
   - yarn install
 script:
   - yarn docs:build
 after_script:
   - cd docs/.vuepress/dist
   - git init
+  - git config user.name "xiaofuyesnew"
+  - git config user.email "xiaofuyesnew@qq.com"
   - git add -A
   - git commit -m 'deploy'
-  - git push -f git@github.com:xiaofuyesnew/xiaofuyesnew.github.io.git master:gh-pages
+  - git push -f "https://${Travis_Token}@github.com/xiaofuyesnew/xiaofuyesnew.github.io.git" master:gh-pages
