@@ -2,3 +2,14 @@ language: node_js
 
 node_js:
   - 9.0
+
+before_script:
+  - yarn install
+script:
+  - yarn docs:build
+after_script:
+  - cd docs/.vuepress/dist
+  - git init
+  - git add -A
+  - git commit -m 'deploy'
+  - git push -f git@github.com:xiaofuyesnew/xiaofuyesnew.github.io.git master:gh-pages
