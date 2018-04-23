@@ -1,5 +1,3 @@
-# vuepress test
-
-:::danger TEST
-123
-:::
+---
+home: true
+---
