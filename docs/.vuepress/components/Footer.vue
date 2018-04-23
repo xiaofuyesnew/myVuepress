@@ -10,7 +10,7 @@
     font-weight: bold;
   }
   .footer {
-    padding: 2.5rem 0;
+    padding: 2.5rem;
     border-top: 1px solid #eaecef;
     text-align: center;
     color: #4e6e8e;
