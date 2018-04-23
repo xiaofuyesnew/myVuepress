@@ -35,6 +35,7 @@ module.exports = {
     sidebar: {
       '/about_me/': [
         '',
+        'howto'
       ],
       '/os/': [
         '',
