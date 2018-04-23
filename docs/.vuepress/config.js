@@ -11,19 +11,19 @@ module.exports = {
         link: '/frontend/'
       },
       {
-        text: '操作系统',
+        text: '用系统',
         items: [
           {
             text: 'Windows',
-            link: '/os/'
+            link: '/os/windows/'
           },
           {
             text: 'Linux',
-            link: '/os/'
+            link: '/os/linux/'
           },
           {
             text: 'Mac',
-            link: '/os/'
+            link: '/os/mac/'
           }
         ]
       },
