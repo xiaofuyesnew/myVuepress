@@ -1,6 +1,7 @@
 <template>
   <div class="footer">
-    MIT Licensed | Copyright © 2018-present <span class="blue">Allen Wong</span><br>
+    MIT Licensed<br>
+    Copyright © 2018-present <span class="blue">Allen Wong</span><br>
     Powered By <a href="https://vuepress.vuejs.org/">VuePress</a>
   </div>
 </template>
