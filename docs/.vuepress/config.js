@@ -1,6 +1,9 @@
 module.exports = {
   title: 'Allen Wong\'s Blog',
   base: '/',
+  head: [
+    ['link', {rel: 'icon', href: '/beans-logo-ico.png'}]
+  ],
   themeConfig: {
     nav: [
       {
