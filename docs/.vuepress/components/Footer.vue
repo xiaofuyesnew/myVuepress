@@ -14,5 +14,6 @@
     border-top: 1px solid #eaecef;
     text-align: center;
     color: #4e6e8e;
+    line-height: 1.5rem;
   }
 </style>
