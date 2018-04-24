@@ -2,6 +2,6 @@
 home: true
 ---
 
-fuck
 
+<Animation/>
 <Footer/>
