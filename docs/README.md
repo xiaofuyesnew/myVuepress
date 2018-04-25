@@ -1,7 +1,4 @@
 ---
 home: true
+layout: Index
 ---
-
-
-<Animation/>
-<Footer/>

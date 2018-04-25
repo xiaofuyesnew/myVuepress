@@ -38,10 +38,10 @@
   }
   @keyframes animShadow {
     0%   {
-      opacity: .2;
+      opacity: .4;
     }
     100% {
-      opacity: .6;
+      opacity: .8;
     }
   }
 </style>
