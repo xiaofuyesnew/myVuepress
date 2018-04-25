@@ -9,15 +9,16 @@
     margin-bottom: 5rem;
     position: relative;
     text-align: center;
-    height: 13.75rem;
+    height: 12.5rem;
   }
   .anim img {
-    width: 9.375rem;
-    animation: animIcon 2s linear infinite alternate;
+    width: 9rem;
+    height: 9rem;
+    animation: animIcon 1.5s linear infinite alternate;
     margin: auto;
   }
   .anim .shadow {
-    animation: animShadow 2s linear infinite alternate;
+    animation: animShadow 1.5s linear infinite alternate;
     position: absolute;
     top: 10.625rem;
     left: calc(50% - 3.125rem);
@@ -25,7 +26,6 @@
     width: 6.25rem;
     background-color: #777;
     border-radius: 50%;
-    margin: 1.875rem auto 0;
     opacity: .5;
   }
   @keyframes animIcon {
