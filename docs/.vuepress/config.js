@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Allen Wong\'s Blog',
+  title: '开源说',
   base: '/',
   head: [
     ['link', {rel: 'icon', href: '/beans-logo-ico.png'}]
