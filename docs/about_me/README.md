@@ -18,4 +18,5 @@ next: false
 [查看作者简历](http://download.500d.me/cvresume/pdf_download/500d_4816075_206_473830_1524485103990.pdf?downmsg=ed53b5b8c2a204747fd006d127fdb82d)
 :::
 
+<Payme/>
 <Footer/>

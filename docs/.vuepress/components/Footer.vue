@@ -6,7 +6,7 @@
     <div class="beian" style="">
       <div class="icp">鄂ICP备15014468号-1</div>
       <a target="_blank" href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=42011502000302">
-        <img :src="$withBase('./police.png')" style="float:left;"/>
+        <img :src="$withBase('/police.png')">
         <p>鄂公网安备 42011502000302号</p>
       </a>
       </a>
